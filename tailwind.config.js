@@ -1,10 +1,10 @@
 module.exports = {
-  purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
+  purge: ["./index.html"],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
       backgroundImage: {
-        "hero-pattern": "url('/images/pattern-backround-desktop.svg')",
+        "hero-pattern": "url('/images/pattern-background-desktop.svg')",
       },
       colors: {
         dark: "#3829e0",
